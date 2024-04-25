@@ -1,10 +1,10 @@
 package bt2_phamvitruycap.person;
 public class Person {
-    private String name;
-    private int age;
-    private String gender;
-    private String address;
-    private String phone;
+    public String name;
+    public int age;
+    public String gender;
+    public String address;
+    public String phone;
     public Person(String name,int age, String gender, String address,String phone){
       this.name = name;
       this.age = age;
@@ -12,8 +12,8 @@ public class Person {
       this.address = address;
       this.phone = phone;
     }
-    public Person(String phươngAnh, int age, String nữ) {
-    }
+//    public Person(String phươngAnh, int age, String Gender) {
+//    }
     public static void main(String[] args) {
         System.out.println();
     }
