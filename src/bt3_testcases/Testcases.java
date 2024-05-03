@@ -30,7 +30,7 @@ public class Testcases extends BaseTest {
 
     public static void main(String[] args) {
         Testcases tescase = new Testcases();
-        tescase.loginCRM();
+        tescase.testCRM();
         System.out.println("====================");
         tescase.testCRMfail();
     }
