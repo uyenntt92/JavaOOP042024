@@ -1,10 +1,12 @@
 package bt2_phamvitruycap.person;
+
 public class Person {
     public String name;
     public int age;
     public String gender;
     public String address;
     public String phone;
+
     public Person(String name, int age, String gender, String address, String phone) {
         this.name = name;
         this.age = age;
@@ -12,23 +14,33 @@ public class Person {
         this.address = address;
         this.phone = phone;
     }
+
     public static void main(String[] args) {
         System.out.println();
     }
+
     public String getName() {
-        return name;};
+        return name;
+    }
+
+    ;
+
     public int getAge() {
         return age;
     }
+
     public String getGender() {
         return gender;
     }
+
     public String getAddress() {
         return address;
     }
+
     public String getPhone() {
         return phone;
     }
+
     public void getinformation() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
