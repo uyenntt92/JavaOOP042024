@@ -14,7 +14,6 @@ public class Person {
         this.address = address;
         this.phone = phone;
     }
-
     public static void main(String[] args) {
         System.out.println();
     }
@@ -33,20 +32,32 @@ public class Person {
         return gender;
     }
 
-    public String getAddress() {
+    protected String getAddress() {
         return address;
     }
 
-    public String getPhone() {
+    protected String getPhone() {
         return phone;
     }
 
-    public void getinformation() {
+    public Person(String name, int age, String gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    protected void getinformation() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Gender: " + gender);
         System.out.println("Address: " + address);
         System.out.println("Phone: " + phone);
+    }
+    public void getinformationcompany() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Gender: " + gender);
+
     }
 }
 

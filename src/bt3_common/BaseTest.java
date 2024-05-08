@@ -9,4 +9,8 @@ public class BaseTest {
     public void closeDriver(){
         Constants constants = new Constants();
         System.out.println("Close Browser:" +Constants.browser);
-}}
+}
+public void closeDriver(String browser){
+    System.out.println("closeDriver" + Constants.browser);
+}
+}
