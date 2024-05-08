@@ -25,6 +25,7 @@ public class Testcases extends BaseTest {
         System.out.println("7. Kiểm tra màn hình giao diện sau khi thêm");
     }
     ;
+
     public void testaddCategory() {
         createDriver();
         addCategory();
